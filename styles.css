@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #FCA5A5;
+    --dark-gray: #6B7280;
+    --light-gray:#F3F4F6;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin:0px;
+}
+
+hr {
+    margin: 1.5rem 0rem;
+}
+
+/* container */
+.container {
+    padding: 1rem 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Links */
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+
+}
+
+/* lists */
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* Nav */
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+
+}
+
+.nav-pills {
+    text-align: right;
+}
+
+.nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .link {
+    color: white;
+
+}
+
+.link-active {
+    font-weight: bold;
+}
+
+.hero {
+    padding: 2rem;
+    padding-top: 4rem;
+}
+
+.hero-image {
+    width: 350px;
+    display: block;
+    margin: auto;
+
+}
+
+.hero-heading {
+    color: var(--dark-gray);
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.heading-inverted {
+    color: var(--primary-color);
+}
+
+/* section */
+
+.section{
+    padding: 1.5rem;
+}
+
+.section h1 {
+    text-align: center;
+    
+}
+
+.off-white-section{
+    background-color:var(--light-gray);
+}
+
+/* footer */
+.footer{
+    background-color: var(--primary-color);
+    padding:2rem 1rem;
+    text-align: center;
+    color:white;
+    border-top-right-radius:1rem ;
+}
+
+.footer .link{
+    color:white;
+}
+
+.social-links{
+    padding-inline-start: 0px;
+}
+
+.footer-header{
+    font-weight: bold;
+    font-size: large;
+
+}
+
+
+

@@ -1,29 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Home | Prabhav Sharma</title>
+    <link href="styles.css" rel="stylesheet"/>
+
 </head>
-
 <body>
-    Hii! I'm Prabhav Sharma, welcome to a wreck I call life!
-    <br>
-    <br>
-    <p>The Portfolio will be uploaded tomorrow when I complete the lecture for HTML & CSS.
+    <nav class="navigation">
+        <div class="nav-brand">iAmDeveloper</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/projects.html">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/blogs.html">Blogs</a>
+            </li>
+        </ul>
+    </nav>
 
-        Currently I know: <br>
-        1. Java <br>
-        2. JavaScript <br>
-        3. Android Development<br>
-        4. Photoshop<br>
-        5. UI/UX Design </p>
+    <header class="hero">
+        <!-- <img src="https://images.unsplash.com/photo-1504297050568-910d24c426d3?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"/> -->
+        <img class="hero-image" src="/images/hero.svg" />
+        <h1 class="hero-heading">Prabhav <span class="heading-inverted">Sharma</span>  the <span class="heading-inverted"> Developer</span></h1>
+    </header>
 
-        <div>
-            I like Batman and Ironman Equally
+    <section class="section off-white-section" >
+        <div class="container-center">
+        <h1>Technologies</h3>
+            <p>I have working knowledge of CSS3, HTML5, Java, JavaScript, MySQL, Photoshop, Filmora and Android.</p>
         </div>
-</body>
+    </section>
 
+    <section class="section">
+        <div class="container-center">
+        <h1>Projects</h3>
+            <p>I like to showcase my work and thus, you can see my projects hosted online.</p>
+            <a class="link link-primary" href="/projects.html">Browse Projects</a>
+        </div>
+    </section>
+
+    <section class="section off-white-section" >
+        <div class="container-center">
+        <h1>Blogs</h3>
+            <p>I am also working on some technical and non technical blogs. I like to document my journey of learning.</p>
+            <a class="link link-primary" href="/blogs.html">See Blogs</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-header" >Connect with me on Social Media</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" target="Blank" href="https://github.com/Prabhav-Sharma">Github</a></li>
+            <li class="list-item-inline"><a class="link" target="Blank" href="https://www.linkedin.com/in/prabhav-sharma-a2180b1b0/">LinkedIn</a></li>
+            <li class="list-item-inline"><a class="link" target="Blank" href="https://www.instagram.com/prabhavsharmaa">Instagram</a> </li>
+        </ul>
+    </footer>
+
+    
+</body>
 </html>

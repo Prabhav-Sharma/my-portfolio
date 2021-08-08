@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 
 :root {
     --primary-color: #FCA5A5;
     --dark-gray: #6B7280;
-    --light-gray:#F3F4F6;
+    --light-gray: #F3F4F6;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin:0px;
+    margin: 0px;
 }
 
 hr {
@@ -105,41 +108,60 @@ hr {
 
 /* section */
 
-.section{
+.section {
     padding: 1.5rem;
 }
 
 .section h1 {
     text-align: center;
-    
+
 }
 
-.off-white-section{
-    background-color:var(--light-gray);
+.off-white-section {
+    background-color: var(--light-gray);
 }
 
 /* footer */
-.footer{
+.footer {
     background-color: var(--primary-color);
-    padding:2rem 1rem;
+    padding: 2rem 1rem;
     text-align: center;
-    color:white;
-    border-top-right-radius:1rem ;
+    color: white;
+    border-top-right-radius: 1rem;
 }
 
-.footer .link{
-    color:white;
+.footer .link {
+    color: white;
 }
 
-.social-links{
+.social-links {
     padding-inline-start: 0px;
 }
 
-.footer-header{
+.footer-header {
     font-weight: bold;
     font-size: large;
 
 }
 
+.author {
+    text-align: center;
+}
+
+#stack-img {
+    padding-block-start: 40px;
+    margin-left: 100px;
 
 
+}
+
+.blog {
+    font-family: 'STIX Two Text', serif;
+    font-size: 17pt;
+    /* font-family: 'Noto Sans JP', sans-serif; */
+}
+
+.marking {
+    /* color:black; */
+    background-color: cyan;
+}

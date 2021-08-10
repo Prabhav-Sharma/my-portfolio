@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+
+:root{
+    --secondary-color:#fbdd5e;
+    --primary-color:#60A5FA;
+}
+body{
+    font-family: 'Dancing Script', cursive;
+    font-size: larger;
+    text-align: center;
+    background-color:var(--primary-color);
+    width: 1000px;
+    margin: auto;
+
+}
+
+.container{
+    display: inline-block;
+    width: 1000px;
+    background-color: var(--secondary-color);
+    height: 720px;
+    border-radius: 4rem 4rem 4rem 4rem;
+    
+}
+
+#txt-input {
+    width: 50%;
+    height: 12vh;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px black solid;
+    box-shadow: 0px 0px 15px var(--primary-color);
+    display: block;
+    margin: auto;
+    resize: none;
+    border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+#output-box {
+    width: 50%;
+    height: 12vh;
+    padding: 1rem;
+    border: 1px black solid;
+    box-shadow: 0px 0px 15px var(--primary-color);
+    display: block;
+    background-color: white;
+    margin-left: 232px;
+    border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+    font-size: larger;
+    font-weight: bold;
+    
+}
+
+#btn-translate{
+    color:black;
+    background-color: var(--primary-color);
+    border-radius: 0.25rem 1rem 0.5rem 1rem;
+    display: block;
+    text-align: center;
+    position: absolute;
+    font-size: larger;
+    margin: auto;
+    margin-left: 450px;
+    margin-top: 1rem;
+    
+
+}
+
+#btn-translate:hover{
+    box-shadow: 0px 0px 5px black;
+}
+
+.info-message{
+    text-align: center;
+    margin:2rem;
+    font-size: x-large;
+}
+
+.hero-image{
+ padding-top: 2rem;
+    width: 200px;
+    height: 200px;
+    margin:auto;
+    display: block;
+}
+
+.hero-heading{
+    text-align: center;
+}

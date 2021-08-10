@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+
+
+
+:root{
+    --primary-color:#D1D5DB;
+    --purple:#6C63FF;
+    --green: #10B981
+}
+
+body{
+    font-family: 'Tangerine', cursive;
+    font-size: 21pt;
+    text-align: center;
+    font-weight: bold;
+    background-color: var(--primary-color) ;
+}
+
+
+
+
+.hero-image{
+    width: 300px;
+    height: 300px;
+    margin-top: -75px;
+    margin-bottom: -50px;
+}
+
+
+#output-box{
+    width: 50%;
+    background-color: white;
+    height: 12vh;
+    display: block;
+    margin: auto;
+    margin-top: -10px;
+    border:1px black none;
+    box-shadow: 2px 2px 3px var(--green);
+    padding: 3px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18pt;
+}
+
+#txt-input{
+    width: 50%;
+    display: block;
+    margin: auto;
+    height: 12vh;
+    resize: none;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18pt;
+    padding: 3px;
+    text-align: center;
+    box-shadow: 2px 2px 3px var(--green);
+    margin-top: 20px;
+
+}
+
+#button{
+    display: block;
+    text-align: center;
+    margin:auto;
+    margin-top: 17px;
+    margin-bottom: -20px;
+    background-color: var(--purple);
+    border-radius: 15% 15% 15% 15%;
+    color: var(--primary-color);
+    width: 7rem;
+    height: 2rem;
+    border: 2px black groove;
+    padding: 1px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: large;
+}
+
+#Translator-message{
+    margin-top: -7px;
+
+}
+#look-message{
+    margin-bottom: -1px;
+}
+
+#button:hover{
+    box-shadow: 0px 0px 8px var(--green);
+}
+

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap');
+
+
+:root{
+    margin-top: -1.5%;
+    background-color: #2b3544;
+}
+
+h1{
+    color: #FCD34D;
+}
+
+.container{
+    width: 35%;
+    margin:auto;
+    background-color: #2b3544;
+    
+}
+
+.input{
+    width: 55%;
+    text-align: center;
+    display: block;
+    position: center;
+    margin: auto;
+    margin-top: 1.25rem;
+    font-family: 'Hahmlet', serif;
+    font-weight: bold;
+    border:3px groove #FEF3C7;
+    border-radius: 10px;
+}
+
+table{
+    width:350px; 
+    margin: auto;
+    border-collapse: collapse;
+}
+
+
+html{
+    text-align: center;
+    margin: 5px;
+}
+table, th, td {
+    border: 1px solid black;
+    text-align:center;
+    background-color:#FEF3C7;
+  }
+
+  table td{
+      text-align: center;
+  }
+
+  table th{
+      background-color: #FCD34D;
+  }
+
+  button{
+      display: block;
+      margin: auto;
+      margin-top: 1rem;
+      padding: 5px;
+      background-color:#FEF3C7;
+      border-radius: 10px;
+      font-size: 12pt;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      box-shadow: 1px 1px 2px #FCD34D ;
+  }
+
+  h2{
+      color:#FCD34D ;
+  }
+
+  button:hover{
+      
+      width: 15%;
+      cursor:grab;
+  }
+
+  
+
+
+

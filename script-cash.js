@@ -22,6 +22,9 @@ function notes(output, amount, currency) {
 
 
 function divideAmount() {
+    if(billAmount, cashAmount === 0){
+        returnStat.innerText ="Please Enter a valid Bill/Cash amount"
+    }
     var billAmount = billInput.value;
     var cashAmount = cashInput.value;
     var returnAmount = cashAmount - billAmount;

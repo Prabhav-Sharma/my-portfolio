@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+html {
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    text-align: center;
+    background-image: url("images/background.jpg");
+    opacity: 120%;
+    font-size: larger;
+    background-repeat: no-repeat;
+
+}
+
+
+
+.adding-space {
+    height: 350px;
+}
+
+input {
+    display: block;
+    margin: auto;
+    margin-top: 1.2rem;
+    padding: 0.5rem;
+    width: 60%;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 12.5pt;
+    font-weight: bold;
+}
+
+.top-heading {
+    margin-top: 15rem;
+    line-height: 50%;
+    vertical-align: middle;
+    text-align: center;
+    padding: 1.2rem;
+
+}
+
+.top-section {
+    min-height: 100vh;
+
+
+}
+
+.top-container {
+    max-height: max-content;
+    width: 40%;
+    background-color: #2DD4BF;
+    margin: auto;
+    border-radius: 30px;
+    opacity: 85%;
+    box-shadow: 0px 0px 20px black;
+}
+
+.container {
+    min-height: 100vh;
+    width: 40%;
+    padding: 1rem;
+    margin: auto;
+    background-color: #2DD4BF;
+    box-shadow: 0px 0px 30px black;
+}
+
+.down-container {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 40%;
+    padding-bottom: 10px;
+
+}
+
+ul {
+
+    margin-left: -2rem;
+    margin-top: 10rem;
+    vertical-align: bottom;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 4px;
+}
+
+.primary-link {
+    text-decoration: none;
+    font-size: 23px;
+    color: black;
+
+}
+
+#btn-check {
+    box-shadow: 2px 2px 4px black;
+    border-radius: 10px;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    margin-top: 15px;
+    padding: 0.3rem;
+    background-color: white;
+    width: 20%;
+
+}
+
+#btn-check:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#output-message {
+    font-size: 18pt;
+}
+
+#privacy {
+    font-family: 'Playfair Display', serif;
+    font-size: medium;
+    background-color: #2DD4BF;
+    border: none;
+    color: black;
+}

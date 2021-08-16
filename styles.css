@@ -169,3 +169,27 @@ hr {
 .marking1{
     background-color: #BFDBFE;
 }
+
+.logo{
+    width: 45px;
+    height: 45px;
+    margin:11px;
+}
+
+#github{
+    height:55px;
+}
+
+#linkedin{
+    height: 55px;
+    margin-left: -1rem;
+    margin-top: 3px;
+
+}
+
+#instagram{
+    height: 50px;
+}
+
+
+

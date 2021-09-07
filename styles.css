@@ -196,4 +196,11 @@ hr {
     display: inline-flex;
 }
 
+.blog-images{
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: auto;
+
+}
 

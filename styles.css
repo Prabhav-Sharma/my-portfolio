@@ -192,5 +192,8 @@ hr {
     height: 50px;
 }
 
+.live{
+    display: inline-flex;
+}
 
 
